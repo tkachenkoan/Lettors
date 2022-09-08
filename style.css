@@ -1,0 +1,232 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid magenta;
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    max-width: 375px;
+  }
+}
+
+.header {
+  background: url(./img/Mask\ Group.jpg) no-repeat;
+  width: 100%;
+}
+@media screen and (max-width: 375px) {
+  .header {
+    background-position: top center;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 176px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.more {
+  width: 194px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  margin-bottom: 305px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #242322;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+}
+@media screen and (max-width: 375px) {
+  .product-card {
+    flex-direction: column;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #242322;
+}
+
+.product-caption {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5A5A5A;
+}
+
+.sales {
+  display: inline-block;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #242322;
+}
+
+.price--sale {
+  color: #AE0E24;
+}
+
+.buy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid rgba(50, 18, 13, 0.2);
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #32120D;
+  width: 128px;
+  height: 35px;
+  margin-top: 12px;
+}
+
+.sale {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #939393;
+}
+
+.catalog-conteiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.catalog {
+  background: #32120D;
+  border: 1px solid #32120D;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 50px;
+  width: 276px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  border-top: 1px solid #DCDCDC;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.instagramm,
+.vk {
+  margin-left: 38px;
+}
+
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #32120D;
+}
+
+.tel {
+  color: #32120D;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #BEB1AE;
+}
+@media screen and (max-width: 375px) {
+  .subtitle {
+    width: 236px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+  }
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #BEB1AE;
+}
+
+.links {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

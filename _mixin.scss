@@ -1,0 +1,21 @@
+@mixin mobile {
+  @media screen and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+@mixin center {
+  display: flex;
+  justify-content: center;
+}
